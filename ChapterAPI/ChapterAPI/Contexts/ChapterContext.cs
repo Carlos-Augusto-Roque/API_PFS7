@@ -18,7 +18,7 @@ namespace ChapterAPI.Contexts
             if (!optionsBuilder.IsConfigured)
             {
                 // cada provedor tem sua sintaxe para especificação
-            optionsBuilder.UseSqlServer("Data Source = DESKTOP-1DQ8V99\\SQLEXPRESS; initial catalog = Chapterpfs7;Integrated Security = true"); //caso seja com senha : id User = sa; pwd=****
+            optionsBuilder.UseSqlServer("Data Source = DESKTOP-1DQ8V99\\SQLEXPRESS; initial catalog = Chapterpfs7;Integrated Security = true"); //caso seja com senha : Id User = sa; pwd=****;
             }
         }
 
